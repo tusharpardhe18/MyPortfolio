@@ -1,0 +1,21 @@
+import React from 'react'
+import Navbar from './sections/Navbar';
+import Tushar from './sections/Tushar';
+import About from './sections/About';
+
+const App = () => {
+  return (
+    <div className="container mx-auto max-w-7xl" >
+      {/* navbar */} <Navbar />
+      {/* hero */} <Tushar />
+      {/* about */} <About />
+      <section className="min-h-screen"></section>
+      {/* projects */}
+      {/* experience */}
+      {/* contact */}
+      {/* footer */}
+    </div>
+  )
+};
+
+export default App
