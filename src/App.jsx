@@ -7,7 +7,6 @@ import { SmoothCursor } from './components/SmoothCursor';
 const App = () => {
   return (
     <div className="container mx-auto max-w-7xl" >
-      <SmoothCursor />
       {/* navbar */} <Navbar />
       {/* hero */} <Tushar />
       {/* about */} <About />
