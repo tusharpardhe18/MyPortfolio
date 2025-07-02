@@ -1,8 +1,8 @@
-import React from 'react'
 import Navbar from './sections/Navbar';
 import Tushar from './sections/Tushar';
 import About from './sections/About';
 import { SmoothCursor } from './components/SmoothCursor';
+import Projects from './sections/Projects';
 
 const App = () => {
   return (
@@ -10,8 +10,7 @@ const App = () => {
       {/* navbar */} <Navbar />
       {/* hero */} <Tushar />
       {/* about */} <About />
-      <section className="min-h-screen"></section>
-      {/* projects */}
+      {/* projects */} <Projects />
       {/* experience */}
       {/* contact */}
       {/* footer */}
