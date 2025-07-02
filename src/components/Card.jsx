@@ -9,6 +9,7 @@ const Card = ({ style, text, image, containerRef }) => {
         whileHover={{ scale: 1.05 }}
         drag
         dragConstraints={containerRef}
+        dragElastic={1}
     />
   ) : (
     <motion.div 
@@ -17,6 +18,7 @@ const Card = ({ style, text, image, containerRef }) => {
         whileHover={{ scale: 1.05 }}
         drag
         dragConstraints={containerRef}
+        dragElastic={1}
     >    
         {text}
     </motion.div>
