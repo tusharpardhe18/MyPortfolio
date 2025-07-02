@@ -3,7 +3,7 @@ import { FlipWords } from "./FlipWords"
 import { motion } from 'motion/react';
 
 const TusharText = () => {
-    const words = [ "Secure", "Modern", "Scalable" ];
+    const words = [ "Chutiya", "Gandu", "Laudu" ];
     const variants = {
         hidden: {opacity: 0, x: -50},
         visible: {opacity: 1, x: 0},
@@ -29,7 +29,7 @@ const TusharText = () => {
                     animate= "visible"
                     transition={{ delay: 1.2 }}
                 >
-                    A Developer <br /> Dedicated to Crafting
+                    You <br /> are
                 </motion.p>
                 {/* get flip word from aceternity */}
                 <motion.div
@@ -50,7 +50,7 @@ const TusharText = () => {
                     animate= "visible"
                     transition={{ delay: 1.8 }}
                 >
-                    Web Solutions
+                    chal ab nikal
                 </motion.p>
             </div>
         </div>
@@ -72,7 +72,7 @@ const TusharText = () => {
                     animate= "visible"
                     transition={{ delay: 1.2 }}
                 >
-                    Building
+                    and You're
                 </motion.p>
                 <motion.div
                     variants={variants}
@@ -92,7 +92,7 @@ const TusharText = () => {
                     animate= "visible"
                     transition={{ delay: 1.8 }}
                 >
-                    Web Applications
+                    Chal ab Nikal
                 </motion.p>
             </div>
         </div>

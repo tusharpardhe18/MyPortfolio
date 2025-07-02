@@ -54,7 +54,6 @@ const slugs = [
   "androidstudio",
   "sonarqube",
   "figma",
-  "cplusplus",
 ];
 
 export function FrameWorks() {
