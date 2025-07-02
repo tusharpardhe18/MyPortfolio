@@ -1,38 +1,39 @@
 export const myProjects = [
   {
     id: 1,
-    title: "E-commerce Platform",
+    title: "Tushar ka Portfolio",
     description:
-      "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
+      "A modern, animated 3D developer portfolio built with React, Three.js, TailwindCSS, and motion effects — designed to help you stand out and showcase your skills creatively.",
     subDescription: [
-      "Built a scalable application with ASP.NET Core MVC, integrating global platforms like Amazon for domestic delivery.",
-      "Implemented secure authentication and database management using ASP.NET Core Identity and Entity Framework Core.",
-      "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
-      "Added payment systems, localization, and product filtering for functionality improvements.",
+      "Immersive 3D Visuals crafted with React Three Fiber and Drei, adding depth and interactivity to the user experience.",
+      " Smooth Scroll-Based Animations powered by Framer Motion, delivering fluid transitions and dynamic content flow..",
+      " Responsive & Aesthetic UI using TailwindCSS, enhanced with Aceternity UI and Magic UI for a polished, modern design.",
+      "Fast Development & Real-Time Interaction with Vite for rapid builds and EmailJS to handle live contact form submissions without a backend",
     ], 
-    href: "",
+    href: "https://tusharkaportfolio.vercel.app/",
     logo: "",
-    image: "/assets/projects/accessories.jpg",
+    image: "/assets/projects/portfolio.png",
     tags: [
+      
       {
         id: 1,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
+        name: "React",
+        path: "/assets/logos/react.svg",
       },
       {
         id: 2,
-        name: ".Net",
-        path: "/assets/logos/dotnet.svg",
+        name: "Vite.js",
+        path: "/assets/logos/vitejs.svg",
       },
       {
         id: 3,
-        name: "Ef Core",
-        path: "/assets/logos/efcore.png",
+        name: "TailwindCSS",
+        path: "/assets/logos/tailwindcss.svg",
       },
       {
         id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
+        name: "Three.js",
+        path: "/assets/logos/threejs.svg",
       },
     ],
   },
