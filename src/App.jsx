@@ -3,6 +3,8 @@ import Tushar from './sections/Tushar';
 import About from './sections/About';
 import { SmoothCursor } from './components/SmoothCursor';
 import Projects from './sections/Projects';
+import Experiences from './sections/Experiences';
+import Contact from './sections/Contact';
 
 const App = () => {
   return (
@@ -11,8 +13,7 @@ const App = () => {
       {/* hero */} <Tushar />
       {/* about */} <About />
       {/* projects */} <Projects />
-      {/* experience */}
-      {/* contact */}
+      {/* contact */} <Contact />
       {/* footer */}
     </div>
   )
