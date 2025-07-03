@@ -91,8 +91,4 @@ This project is licensed under the [MIT License](LICENSE).
 ## Acknowledgements
 
 - [React.js](https://reactjs.org/)
-- [Express.js](https://expressjs.com/)
-- [MongoDB](https://www.mongodb.com/)
 - [Tailwind CSS](https://tailwindcss.com/)
-- [Cloudinary](https://cloudinary.com/)
-- [Razorpay](https://razorpay.com/)
