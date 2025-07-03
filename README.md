@@ -1,12 +1,32 @@
-# Personal Portfolio
+# MyPortfolio - Personal Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Portfolio Screenshot](https://raw.githubusercontent.com/tusharpardhe18/MyPortfolio/main/assets/img/portfolio.png)
 
-Currently, two official plugins are available:
+A responsive, modern personal portfolio website showcasing projects, skills, and experience. Built with HTML, CSS, JavaScript, and Bootstrap.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Website Status](https://img.shields.io/website?down_message=offline&up_message=online&url=https%3A%2F%2Ftusharpardhe18.github.io%2FMyPortfolio%2F)](https://tusharpardhe18.github.io/MyPortfolio/)
 
-## Expanding the ESLint configuration
+## Features ✨
+- Responsive mobile-first design
+- Project showcase gallery
+- Skills section with progress bars
+- Contact form functionality
+- Dark/light mode toggle
+- Animated page transitions
+- Interactive navigation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies Used 🛠️
+- **Frontend**: HTML5, CSS3, JavaScript
+- **Framework**: Bootstrap 5
+- **Icons**: Font Awesome
+- **Animation**: Animate.css
+- **Hosting**: GitHub Pages
+
+## Live Demo 🌐
+[View Portfolio](https://tusharpardhe18.github.io/MyPortfolio/)
+
+## Installation & Setup 🚀
+1. Clone the repository:
+```bash
+git clone https://github.com/tusharpardhe18/MyPortfolio.git
