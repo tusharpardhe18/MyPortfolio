@@ -12,6 +12,7 @@ const Tushar = () => {
     const isMobile = useMediaQuery({ maxWidth: 853 })
   return (
     <section
+        id='home'
         className="flex items-start justify-center md:items-start md:justify-start min-h-screen overflow-hidden c-space"
     >
         <TusharText />

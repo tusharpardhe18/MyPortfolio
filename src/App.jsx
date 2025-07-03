@@ -5,6 +5,7 @@ import { SmoothCursor } from './components/SmoothCursor';
 import Projects from './sections/Projects';
 import Experiences from './sections/Experiences';
 import Contact from './sections/Contact';
+import Footer from './sections/Footer';
 
 const App = () => {
   return (
@@ -14,7 +15,7 @@ const App = () => {
       {/* about */} <About />
       {/* projects */} <Projects />
       {/* contact */} <Contact />
-      {/* footer */}
+      {/* footer */} <Footer />
     </div>
   )
 };
