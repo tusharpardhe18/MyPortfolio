@@ -4,7 +4,7 @@ import "./loader.css";
 
 const Loader = () => (
   <div className="fixed inset-0 flex items-center justify-center bg-black z-50">
-    <div className="container">
+    <div className="loader-container">
       <div className="box box-1"></div>
       <div className="box box-2"></div>
       <div className="box box-3"></div>

@@ -17,7 +17,7 @@ body {
   align-items: center;
 }
 
-.container {
+.loader-container {
   width: var(--container-size);
   display: flex;
   justify-content: space-between;

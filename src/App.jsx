@@ -29,7 +29,7 @@ const App = () => {
           {/* projects */} <Projects />
           {/* contact */} <Contact />
           {/* footer */} <Footer />
-          <SmoothCursor />
+          {/* <SmoothCursor /> */}
         </div>
       )}
     </>
