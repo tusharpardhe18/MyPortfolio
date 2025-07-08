@@ -144,7 +144,7 @@ export const mySocials = [
   {
     name: "Github",
     href: "https://github.com/tusharpardhe18",
-    icon: "/assets/socials/github.svg",
+    icon: "/assets/socials/github-mark-white.svg",
   },
   {
     name: "Linkedin",
