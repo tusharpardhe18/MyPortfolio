@@ -17,12 +17,12 @@ export const myProjects = [
       {
         id: 1,
         name: "Next.js",
-        path: "/assets/logos/react.svg",
+        path: "/assets/logos/nextjs.svg",
       },
       {
         id: 2,
         name: "TypeScript",
-        path: "/assets/logos/vitejs.svg",
+        path: "/assets/logos/typescript.svg",
       },
       {
         id: 3,
@@ -32,12 +32,12 @@ export const myProjects = [
       {
         id: 4,
         name: "Firebase",
-        path: "/assets/logos/threejs.svg",
+        path: "/assets/logos/firebase.svg",
       },
       {
         id: 5,
         name: "Vapi",
-        path: "/assets/logos/threejs.svg",
+        path: "/assets/logos/vapi.png",
       },
     ],
   },
