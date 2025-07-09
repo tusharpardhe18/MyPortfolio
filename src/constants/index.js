@@ -1,20 +1,61 @@
 export const myProjects = [
   {
     id: 1,
+    title: "IntervAI",
+    description:
+      "Built with Next.js for the user interface and backend logic, Firebase for authentication and data storage, styled with TailwindCSS and using Vapi's voice agents.",
+    subDescription: [
+      "Create and take interviews using Vapi voice assistants and Google Gemini with real-time AI feedback.",
+      "Secure sign-up/sign-in via Firebase email-password authentication.",
+      "Sleek design with smooth navigation across all devices, including dashboard and interview screens.",
+      "Built with reusable components and a modular architecture for easy updates and maintenance.",
+    ],
+    href: "https://intervai-ten.vercel.app/",
+    logo: "",
+    image: "/assets/projects/intervai.PNG",
+    tags: [
+      {
+        id: 1,
+        name: "Next.js",
+        path: "/assets/logos/react.svg",
+      },
+      {
+        id: 2,
+        name: "TypeScript",
+        path: "/assets/logos/vitejs.svg",
+      },
+      {
+        id: 3,
+        name: "TailwindCSS",
+        path: "/assets/logos/tailwindcss.svg",
+      },
+      {
+        id: 4,
+        name: "Firebase",
+        path: "/assets/logos/threejs.svg",
+      },
+      {
+        id: 5,
+        name: "Vapi",
+        path: "/assets/logos/threejs.svg",
+      },
+    ],
+  },
+  {
+    id: 2,
     title: "Tushar's Portfolio",
     description:
       "A modern, animated 3D developer portfolio built with React, Three.js, TailwindCSS, and motion.",
     subDescription: [
       "Immersive 3D Visuals crafted with React Three Fiber and Drei, adding depth and interactivity to the user experience.",
-      " Smooth Scroll-Based Animations powered by Framer Motion, delivering fluid transitions and dynamic content flow..",
-      " Responsive & Aesthetic UI using TailwindCSS, enhanced with Aceternity UI and Magic UI for a polished, modern design.",
-      "Fast Development & Real-Time Interaction with Vite for rapid builds and EmailJS to handle live contact form submissions without a backend",
-    ], 
+      "Smooth Scroll-Based Animations powered by Framer Motion, delivering fluid transitions and dynamic content flow.",
+      "Responsive & Aesthetic UI using TailwindCSS, enhanced with Aceternity UI and Magic UI for a polished, modern design.",
+      "Fast Development & Real-Time Interaction with Vite for rapid builds and EmailJS to handle live contact form submissions without a backend.",
+    ],
     href: "https://tusharkaportfolio.vercel.app/",
     logo: "",
     image: "/assets/projects/portfolio.png",
     tags: [
-      
       {
         id: 1,
         name: "React",
@@ -38,7 +79,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     title: "Doctor Appointment Booking System",
     description:
       "Prescripto is a comprehensive healthcare appointment booking system that connects patients with trusted doctors.",
@@ -75,7 +116,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     title: "Snake Game",
     description:
       "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
@@ -107,7 +148,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     title: "Weather App",
     description:
       "This is a simple weather application that allows users to check the current weather conditions for a specified city.",
