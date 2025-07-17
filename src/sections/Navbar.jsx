@@ -50,11 +50,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div
-      className={`fixed inset-x-0 z-20 w-full backdrop-blur-lg transition-all duration-300 ${
-        isScrolled ? "bg-primary/70 shadow-md" : "bg-primary/40"
-      }`}
-    >
+    <div className="fixed inset-x-0 z-20 w-full backdrop-blur-lg transition-all duration-300">
       <div className="mx-auto c-space max-w-7xl">
         <div className="flex items-center justify-between py-2 sm:py-0">
           <a
