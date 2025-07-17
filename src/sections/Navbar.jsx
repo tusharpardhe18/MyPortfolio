@@ -1,20 +1,36 @@
 import { useState, useEffect } from "react";
 import { motion } from "motion/react";
 
-function Navigation() {
+function Navigation({ onLinkClick }) {
   return (
     <ul className="nav-ul">
       <li className="nav-li">
-        <a href="#home" className="nav-link cursor-none">Home</a>
+        <a href="#home" className="nav-link cursor-none" onClick={onLinkClick}>
+          Home
+        </a>
       </li>
       <li className="nav-li">
-        <a href="#about" className="nav-link cursor-none">About</a>
+        <a href="#about" className="nav-link cursor-none" onClick={onLinkClick}>
+          About
+        </a>
       </li>
       <li className="nav-li">
-        <a href="#projects" className="nav-link cursor-none">Projects</a>
+        <a
+          href="#projects"
+          className="nav-link cursor-none"
+          onClick={onLinkClick}
+        >
+          Projects
+        </a>
       </li>
       <li className="nav-li">
-        <a href="#contact" className="nav-link cursor-none">Contact</a>
+        <a
+          href="#contact"
+          className="nav-link cursor-none"
+          onClick={onLinkClick}
+        >
+          Contact
+        </a>
       </li>
     </ul>
   );
@@ -62,6 +78,7 @@ const Navbar = () => {
           </nav>
         </div>
       </div>
+
       {isOpen && (
         <motion.div
           className="block overflow-hidden text-center sm:hidden"
@@ -71,7 +88,7 @@ const Navbar = () => {
           transition={{ duration: 1 }}
         >
           <nav className="pb-5">
-            <Navigation />
+            <Navigation onLinkClick={() => setIsOpen(false)} />
           </nav>
         </motion.div>
       )}
