@@ -1,6 +1,48 @@
 export const myProjects = [
   {
     id: 1,
+    title: "Chat Application",
+    description:
+      "Built with React.js for the user interface and backend logic, JWT for authentication and MongoDB for data storage, styled with TailwindCSS and using Socket.io for real time messaging.",
+    subDescription: [
+      "Create and take interviews using Vapi voice assistants and Google Gemini with real-time AI feedback.",
+      "Secure sign-up/sign-in via Firebase email-password authentication.",
+      "Sleek design with smooth navigation across all devices, including dashboard and interview screens.",
+      "Built with reusable components and a modular architecture for easy updates and maintenance.",
+    ],
+    href: "https://chatapp-9by7.onrender.com/",
+    logo: "",
+    image: "/assets/projects/chat-app.png",
+    tags: [
+      {
+        id: 1,
+        name: "React",
+        path: "/assets/logos/react.svg",
+      },
+      {
+        id: 2,
+        name: "Node.js",
+        path: "/assets/logos/nodejs.svg",
+      },
+      {
+        id: 3,
+        name: "TailwindCSS",
+        path: "/assets/logos/tailwindcss.svg",
+      },
+      {
+        id: 4,
+        name: "MongoDB",
+        path: "/assets/logos/MongoDB.svg",
+      },
+      {
+        id: 5,
+        name: "Socket.io",
+        path: "/assets/logos/Socket.io.svg",
+      },
+    ],
+  },
+  {
+    id: 2,
     title: "IntervAI",
     description:
       "Built with Next.js for the user interface and backend logic, Firebase for authentication and data storage, styled with TailwindCSS and using Vapi's voice agents.",
@@ -42,7 +84,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     title: "Tushar's Portfolio",
     description:
       "A modern, animated 3D developer portfolio built with React, Three.js, TailwindCSS, and motion.",
@@ -79,7 +121,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     title: "Doctor Appointment Booking System",
     description:
       "Prescripto is a comprehensive healthcare appointment booking system that connects patients with trusted doctors.",
@@ -116,7 +158,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     title: "Snake Game",
     description:
       "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
@@ -148,7 +190,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     title: "Weather App",
     description:
       "This is a simple weather application that allows users to check the current weather conditions for a specified city.",
